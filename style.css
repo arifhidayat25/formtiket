@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(172, 200, 233);
+}
+h1 {
+    margin-top: 50px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.tablee {
+    border-radius: 10px;
+    font-size: 18px;
+    border-spacing: 20px;
+    border-collapse: separate;
+   float: left;
+   width: 500px; 
+   height: 200px;
+   background-color: rgb(35, 139, 224);
+}
+.tdd {
+    padding: 20px;;
+}
+
+input[type=text] {
+    width: 40%;
+}
+input[type=number] {
+    width: 20%;
+}
+input[type=submit],input[type=reset] {
+    font-family: sans-serif;
+    font-size: 15px;
+    background: #22a4cf;
+    color: white;
+    border: white 3px solid;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 20px; 
+
+}
+input[type=submit]:hover,input[type=reset]:hover{
+    opacity:0.9;
+    background-color: #0d4b5f;
+}
+.tab {
+    border-radius: 10px;
+    font-size: 18px;
+    border-spacing: 20px;
+    border-collapse: separate;
+    line-height: 20%;
+   float: left;
+   width: 500px; 
+   height: 50px;
+   background-color: rgb(35, 139, 224);
+}
+footer {
+    background-color: rgba(27, 27, 27, 1);
+    padding: 7px 0;
+    margin-left:  410px;
+    margin-right: 410px;
+    border-radius: 10px;    
+  }
+footer p{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(53, 177, 199);
+    margin-left: 160px;
+}
+td a {
+    font-family: sans-serif;
+    font-size: 15px;
+    background: #22a4cf;
+    color: white;
+    border: white 3px solid;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    text-decoration: none; 
+}     
